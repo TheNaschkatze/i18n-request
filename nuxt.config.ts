@@ -2,25 +2,6 @@
 
 export default defineNuxtConfig({
     modules: [
-        ["@storyblok/nuxt", { accessToken: "rtN4WQgtdI1PloeJSa8Jugtt" }],
-        '@nuxtjs/i18n',
+        ["@storyblok/nuxt", { accessToken: "rtN4WQgtdI1PloeJSa8Jugtt" }]
     ],
-    i18n: {
-        locales: ['en', 'fr', 'es'],
-        defaultLocale: 'en',
-        vueI18n: {
-            fallbackLocale: 'en',
-            messages: {
-                en: {
-                    welcome: 'Welcome'
-                },
-                fr: {
-                    welcome: 'Bienvenue'
-                },
-                es: {
-                    welcome: 'Bienvenido'
-                }
-            }
-        }
-    }
 })
